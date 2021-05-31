@@ -1,0 +1,54 @@
+#mine-root{
+    background: #F9F9F9;
+    .header{
+        line-height: 46px;
+        // padding: 0px 14px;
+        background: #FA8072;
+        color: #f1f2f3;
+        text-align: center;
+    }
+    .gife{
+        width: 100%;
+        height: 44px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        p{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 12px;
+        }
+    }
+    .orders{
+        width: 92%;
+        height: 82px;
+        margin: 10px 14px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #FA8072;
+        .title{
+            color: #f1f2f3;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    }
+    .to-login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+        font-size: 20px;
+        .go-mumo{
+          text-decoration: none;
+          background-image: -webkit-linear-gradient(bottom, rgb(201, 115, 255), rgb(20, 11, 255));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+    
+        }
+      }
+}

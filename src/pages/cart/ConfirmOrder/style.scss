@@ -1,0 +1,225 @@
+#confirm-order {
+  .header {
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: salmon;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+    .title {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .left-btn {
+      position: absolute;
+      top: 0;
+      left: 6px;
+      height: 44px;
+      background-color: salmon;
+      border: none;
+      color: rgba(134,134,125,.7);
+      font-size: 30px;
+      padding: 0 10px;
+    }
+  }
+  .content {
+    width: 100%;
+    background: #eee;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    bottom: 40px;
+    .address{
+      width: 100%;
+      height: 44px;
+      line-height: 44px;
+      background-color: #36CABD;
+      color: #fff;
+      font-size: 16px;
+      padding-left: 14px;
+    }
+    .pay-top{
+      width: 96%;
+      height: 230px;
+      background-color: #fff;
+      margin:8px;
+      border-radius: 12px;
+    }
+    .order-item{
+      // border-bottom: 1PX solid #ddd;
+      box-sizing: border-box;
+      width: 96%;
+      height: 110px;
+      // background-color: #fff;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      .img{
+        img{
+          width: 80px;
+          height: 80px;
+        }
+      }
+      .info{
+        flex: 1;
+        margin: 8px;
+        .shopp-title{
+          line-height: 22px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+        .selected-arr{
+          display: flex;
+          line-height: 22px;
+          li{
+            padding: 0 5px;
+          }
+        }
+        .price{
+          line-height: 18px;
+          span{
+            padding: 0 5px;
+            &:first-of-type{
+              color: red;
+            }
+            &:last-of-type{
+              color: #999;
+              text-decoration: line-through;
+            }
+          }
+        }
+        
+      }
+    }
+    .serve{
+      line-height: 24px;
+      font-size: 14px;
+      padding: 0px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .select-serve{
+        display: flex;
+        color: #999;
+        width: 110px;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+    .delivery{
+      line-height: 24px;
+      font-size: 14px;
+      padding: 0px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .del-right{
+        text-align: right;
+      }
+    }
+    .leave{
+      line-height: 38px;
+      font-size: 14px;
+      padding: 0px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      input{
+        width: 160px;
+        height: 20px;
+        font-size: 12px;
+        color: #ddd;
+        border: none;
+        outline: none;
+      }
+    }
+    .pay-center{
+      width: 96%;
+      height: 130px;
+      background-color: #fff;
+      margin:8px;
+      border-radius: 12px;
+      .amount,.freight,.discount{
+        line-height: 28px;
+        font-size: 14px;
+        padding: 0px 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .none-dis{
+        display: flex;
+        color: #999;
+        width: 70px;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .line{
+        width: 90%;
+        height: 1px;
+        background: #eee;
+        margin: 8px 0px 8px 20px;
+      }
+      .total{
+        text-align: right;
+        padding-right: 20px;
+        font-size: 14px;
+        span{
+          color: red;
+        }
+      }
+    }
+    .pay-bottom{
+      width: 96%;
+      height: 60px;
+      background-color: #fff;
+      margin:8px;
+      border-radius: 12px;
+      .invoice,.payment{
+        line-height: 28px;
+        font-size: 14px;
+        padding: 0px 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+  .confirm-bar{
+    width: 100%;
+    height: 40px;
+    line-height: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ddd;
+    .pay{
+      height: 46px;
+      padding-left: 6px;
+      width: 100%;
+      line-height: 46px;
+      font-size: 16px;
+      span{
+        color: red;
+      }
+    }
+    button{
+      font-size: 16px;
+      height: 34px;
+      width: 100px;
+      background: #FA8072;
+      border: none;
+      color: #fff;
+      border-radius: 6px;
+    }
+  }
+}
